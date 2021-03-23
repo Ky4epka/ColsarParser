@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColsarParser", "ColsarParser.csproj", "{5175741B-7773-447A-A6B6-2BF0DC32DAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColsarParserLifeChecker", "..\ColsarParserLifeChecker\ColsarParserLifeChecker.csproj", "{FB5D8981-8FD6-44C9-A577-4CE6442971FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5175741B-7773-447A-A6B6-2BF0DC32DAED} = {5175741B-7773-447A-A6B6-2BF0DC32DAED}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5175741B-7773-447A-A6B6-2BF0DC32DAED}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{5175741B-7773-447A-A6B6-2BF0DC32DAED}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{5175741B-7773-447A-A6B6-2BF0DC32DAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5175741B-7773-447A-A6B6-2BF0DC32DAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5D8981-8FD6-44C9-A577-4CE6442971FE}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5D8981-8FD6-44C9-A577-4CE6442971FE}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FB5D8981-8FD6-44C9-A577-4CE6442971FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5D8981-8FD6-44C9-A577-4CE6442971FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D205C944-FB03-41A8-8405-E17ED24A7933}
+	EndGlobalSection
+EndGlobal
